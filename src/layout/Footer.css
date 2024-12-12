@@ -1,0 +1,10 @@
+ul button {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+button.k {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
