@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import LangButton from "./LangButton";
 
 const Footer = () => {
   return (
@@ -9,54 +10,56 @@ const Footer = () => {
       </div>
       <ul>
         <li>
-          <button>자주묻는 질문</button>
+          <a href="">자주묻는 질문</a>
         </li>
         <li>
-          <button>고객센터</button>
+          <a href="">고객센터</a>
         </li>
         <li>
-          <button>계정</button>
+          <a href="">계정</a>
         </li>
         <li>
-          <button>미디어센터</button>
+          <a href="">미디어센터</a>
         </li>
         <li>
-          <button>투자정보</button>
+          <a href="">투자정보</a>
         </li>
         <li>
-          <button>입사정보</button>
+          <a href="">입사정보</a>
         </li>
         <li>
-          <button>넷플릭스 지원 디바이스</button>
+          <a href="">넷플릭스 지원 디바이스</a>
         </li>
         <li>
-          <button>이영악관</button>
+          <a href="">이용악관</a>
         </li>
         <li>
-          <button>개인정보처리방침</button>
+          <a href="">개인정보처리방침</a>
         </li>
         <li>
-          <button>개인정보처리방침</button>
+          <a href="">개인정보처리방침</a>
         </li>
         <li>
-          <button>개인정보처리방침</button>
+          <a href="">개인정보처리방침</a>
         </li>
         <li>
-          <button>개인정보처리방침</button>
+          <a href="">개인정보처리방침</a>
         </li>
         <li>
-          <button>개인정보처리방침</button>
+          <a href="">개인정보처리방침</a>
         </li>
       </ul>
-      <button className="k">한국어</button>
-      <div>
+      <div className="wrap">
+        <LangButton />
+      </div>
+      <div className="txt">
         <p>넷플릭스 대한민국</p>
-        <div>
+        <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis,
           magnam nihil libero unde, atque dignissimos non excepturi enim iure
           dolorem dolores? Labore rerum odit veniam excepturi minus.
           Repudiandae, consequuntur laborum.
-        </div>
+        </p>
       </div>
     </footer>
   );

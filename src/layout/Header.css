@@ -1,26 +1,24 @@
 header {
   background-color: var(--gray9);
-  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10px;
-  border-bottom: 1px solid;
+  padding-right: 15px;
+  border-bottom: 1px solid var(--gray);
 }
 
 header ul {
   display: flex;
   column-gap: 10px;
 }
-button.logo {
-  background-color: transparent;
+button.title {
   border: none;
-  font-size: 40px;
+  font-size: 28px;
   color: var(--red7);
-  display: flex;
+  padding: 15px;
   align-items: center;
-  height: 80px;
 }
-button.login {
+button.login.l.btn {
   background-color: red;
   border: none;
 }
@@ -36,4 +34,9 @@ header .h.lang {
 }
 header .h.l {
   background-color: var(--red7);
+}
+button.btn {
+  border: 1px solid;
+  padding: 5px 10px;
+  border-radius: 100px;
 }

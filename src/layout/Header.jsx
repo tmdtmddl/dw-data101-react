@@ -1,26 +1,23 @@
 import React from "react";
 import "./Header.css";
 import { SiNetflix } from "react-icons/si";
-import { CiGlobe } from "react-icons/ci";
+import LangButton from "./LangButton";
 
 const Header = () => {
   return (
     <header>
       <div>
-        <button className="logo">
+        <button className="title">
           <SiNetflix />
         </button>
       </div>
       <div>
         <ul>
           <li>
-            <button className="h lang">
-              <CiGlobe />
-              언어
-            </button>
+            <LangButton />
           </li>
           <li>
-            <button className="login l">로그인</button>
+            <button className="login l btn">로그인</button>
           </li>
         </ul>
       </div>
