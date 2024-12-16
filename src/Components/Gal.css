@@ -1,0 +1,39 @@
+#gal {
+  border: none;
+  padding: 20px;
+}
+
+#gal .wrap {
+  position: relative;
+}
+
+#gal .wrap button.chev {
+  position: absolute;
+  padding: 20px 5px;
+  background-color: var(--gray7);
+  border-radius: 100px;
+  border: 1px solid var(--gray5);
+  top: 50%;
+  height: auto;
+}
+
+.chev.l {
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+.chev.r {
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+#gal .wrap .txts {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+  text-align: center;
+}
+#gal .wrap img {
+  border: 1px solid;
+  border-radius: 20px;
+}

@@ -4,7 +4,7 @@ import { IoChevronBackOutline, IoChevronForwardOutline } from "react-icons/io5";
 
 const Gallery = () => {
   return (
-    <div className="gal">
+    <div className="ga">
       <div className="wrap">
         <img src={img} />
         <button className="l">

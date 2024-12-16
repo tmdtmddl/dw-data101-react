@@ -1,0 +1,30 @@
+#mq {
+  width: 200px;
+  height: 200px;
+  background-color: var(--blue5);
+  transition: all 0.3;
+}
+/* mobile=>320px */
+@media all and (min-width: 320px) {
+  #mq {
+    background-color: var(--red6);
+    width: 300px;
+    height: 300px;
+  }
+}
+/* table=>768px */
+@media all and (min-width: 768px) {
+  #mq {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+  }
+}
+/* desktop= >1024~1200px,1920px */
+@media all and (min-width: 1024px) {
+  #mq {
+    background-color: green;
+    width: 500px;
+    height: 500px;
+  }
+}

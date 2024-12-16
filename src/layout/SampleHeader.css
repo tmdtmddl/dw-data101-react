@@ -1,0 +1,34 @@
+header#header {
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+header button {
+  font-size: 15px;
+}
+
+#header ul.buts {
+  display: flex;
+  column-gap: 10px;
+  height: 80px;
+  align-items: center;
+}
+
+button#logo {
+  color: red;
+  border: none;
+  font-size: 25px;
+  height: 80px;
+  align-items: center;
+  padding: 20px;
+}
+
+button.login {
+  color: black;
+  background-color: var(--gray0);
+  border-radius: 100px;
+}
+li button {
+  padding: 5px;
+}

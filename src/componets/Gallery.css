@@ -1,16 +1,16 @@
-.gal {
+.ga {
   padding: 20px;
 }
-.gal .wrap {
+.ga .wrap {
   position: relative;
 }
 
-.gal img {
+.ga img {
   border-radius: 10px;
   border: 1px solid;
   object-fit: cover;
 }
-.gal button {
+.ga button {
   position: absolute;
   border: 1px solid var(--gray6);
   background-color: var(--gray8);
@@ -18,17 +18,17 @@
   padding: 30px 0;
   top: 50%;
 }
-.gal button:hover {
+.ga button:hover {
   opacity: 1;
   background-color: var(--gray7);
 }
-.gal button.l {
+.ga button.l {
   left: 0;
   /* transform: translateX(-50%) translateY(-50%); */
   /* 한번에 쓸거면 밑에처럼 */
   transform: translate(-50%, -50%);
 }
-.gal button.r {
+.ga button.r {
   right: 0;
   transform: translate(50%, -50%);
 }

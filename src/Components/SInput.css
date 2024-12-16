@@ -1,0 +1,22 @@
+div.ba {
+  row-gap: 10px;
+  padding: 0 20px;
+}
+
+.ba input {
+  background-color: transparent;
+  border: 1px solid var(--gray4);
+  border-radius: 100px;
+  padding: 10px;
+}
+
+.ba button {
+  background-color: red;
+  border-radius: 100px;
+  padding: 10px;
+}
+
+div.ba div.vn {
+  flex-direction: row;
+  justify-content: center;
+}
