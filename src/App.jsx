@@ -110,9 +110,12 @@
 // };
 
 // export default App;
+
 import React from "react";
-import Header2 from "./Components3/Header2";
-import Gallery2 from "./Components3/Gallery2";
+import Header2 from "./components3/Header2";
+import Gallery2 from "./components3/Gallery2";
+import Input2 from "./components3/Input2";
+import Detail2 from "./components3/Detail2";
 
 const App = () => {
   return (
@@ -120,6 +123,8 @@ const App = () => {
       <Header2 />
       <main>
         <Gallery2 />
+        <Input2 />
+        <Detail2 />
       </main>
     </>
   );
