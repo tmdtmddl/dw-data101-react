@@ -34,8 +34,32 @@ import Gallery from "./Components2/Gallery";
 import Calendar from "./Components2/Calendar";
 import Detail from "./Components2/Detail";
 import Input from "./Components2/Input";
-
+import Poster from "./Components/Poster";
+import Reason from "./Components/Reason";
+import FAQ from "./Components/FAQ";
+import LB from "./Components/LB";
 const App = () => {
+  // const string = "Hellow world!";
+  // const number = 12;
+  // const obj = {
+  //   name: "hse",
+  //   year: 2000,
+  //   tel: null,
+  // };
+  // const rn1 = null;
+  // const rn2 = undefined;
+  // const dates = [1, 2, 3];
+  // const newArr = [number, obj];
+  // const newArr = [number, obj];
+  // const bool = true;
+  // console.log(bool);
+  // function talk() {
+  //   console.log("Hello");
+  // }
+  // talk();
+  // console.log(obj.tel);
+  // const [name, setname] = useState("hse");
+  // console.log(name);
   return (
     <>
       {/* 헤더랑 메인과 푸터를 하나로 묶지 않기위해서 빈태그사용 */}
@@ -56,6 +80,11 @@ const App = () => {
         <Calendar />
         <Detail />
         <Input />
+        <Poster />
+        <Poster />
+        <Reason />
+        <FAQ />
+        <LB />
       </main>
     </>
   );

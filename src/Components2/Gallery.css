@@ -1,0 +1,37 @@
+div.wr {
+  padding: 0 10px;
+}
+
+img.im {
+  border: 1px solid;
+  border-radius: 20px;
+}
+div.ha {
+  position: relative;
+}
+div.txtss {
+  color: var(--gray6);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+button.ch {
+  border: 1px solid;
+  border-radius: 100px;
+  position: absolute;
+  background-color: var(--gray8);
+  top: 50%;
+  height: 30px;
+  padding: 20px 5px;
+  align-items: center;
+}
+button.ch.l {
+  left: 0%;
+  transform: translate(-50%, -50%);
+}
+button.ch.r {
+  right: 0%;
+  transform: translate(50%, -50%);
+}

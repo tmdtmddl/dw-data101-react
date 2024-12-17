@@ -1,0 +1,11 @@
+div.lb {
+  padding: 20px;
+  align-items: center;
+  row-gap: 10px;
+}
+
+div button.bu {
+  background-color: var(--red8);
+  border-radius: 100px;
+  padding: 10px 20px;
+}
