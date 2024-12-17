@@ -3,7 +3,7 @@ import "./Header2.css";
 import { RiNetflixFill } from "react-icons/ri";
 import { IoLanguage } from "react-icons/io5";
 
-const Header = () => {
+const Header2 = () => {
   return (
     <div className="wrapp">
       <button className="go">
